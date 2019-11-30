@@ -20,3 +20,36 @@
         height: 150px;
     }
 }
+
+.ball {
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #84a125;
+    margin: 30px;
+    animation-name: jump;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+   
+}
+
+@keyframes jump {
+    from {
+        top: 0;
+    }
+    to {
+        top: 150;
+    }
+}
+
+@-webkit-keyframes jump {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100px;
+    }
+}
