@@ -9,6 +9,7 @@
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-play-state: running;
 
 }
 
@@ -28,6 +29,7 @@
     background-color: #84a125;
     margin: 30px;
     animation-name: jump;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
@@ -41,7 +43,7 @@
         top: 0;
     }
     to {
-        top: 150;
+        top: 250px;
     }
 }
 
@@ -50,6 +52,6 @@
         top: 0;
     }
     to {
-        top: 100px;
+        top: 250px;
     }
 }
